@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(47, 0, 255);
+}
+.navbar{
+    background-color: black;
+    color: rgb(237, 240, 59);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 0 30px;
+    border-radius: 50px;
+    user-select: none;
+    justify-content: space-between;
+    flex: auto;
+}
+h1{
+    position: relative;
+    display: inline-block;
+    color: red;
+}
+h1 span{
+    color: yellow;
+}
+.navbar a{
+    position: relative;
+    color:aqua;
+    text-decoration:none;
+    font-size:25px;
+    font-weight: 500;
+    transition: 0.2s  ease-in-out;
+    padding: 20px;
+    margin:50px;
+}
+.navbar a:hover,
+.navbar a.activ{
+    color:white;
+    border-bottom: 3px solid;
+}
+section{
+    background-color: blanchedalmond;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    min-height: 300px;
+}
+.home{
+    
+}
+h2{
+    width: 300px;
+}
+p{
+    max-width: 400px;
+    font-size: larger;
+    font-weight: 400;
+}
+img{
+    width: 450px;
+    height: max-content;
+}
